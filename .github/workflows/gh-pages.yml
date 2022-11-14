@@ -20,7 +20,10 @@ jobs:
         with:
           hugo-version: 'latest'
           # extended: true
-
+          
+      - name: test
+        run: ls -la
+        
       - name: Build
         run: hugo --minify
 
