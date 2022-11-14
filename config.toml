@@ -1,0 +1,4 @@
+baseURL = 'https://jkolanek.github.io'
+languageCode = 'en-us'
+title = 'siema'
+theme = "ananke"
